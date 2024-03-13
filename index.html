@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/src/styles/style.css" />
+		<title>Juego de Memoria</title>
+	</head>
+	<body>
+		<main>
+			<section class="container">
+				<h1 class="title">Juego de memoria</h1>
+				<div class="t-restant">
+					<h2>Tiempo:</h2>
+					<span id="contador-cronometro">80</span>
+				</div>
+				<div class="button">
+					<button id="0" onclick="destapar(0)" class="card"></button>
+					<button id="1" onclick="destapar(1)" class="card"></button>
+					<button id="2" onclick="destapar(2)" class="card"></button>
+					<button id="3" onclick="destapar(3)" class="card"></button>
+					<button id="4" onclick="destapar(4)" class="card"></button>
+					<button id="5" onclick="destapar(5)" class="card"></button>
+					<button id="6" onclick="destapar(6)" class="card"></button>
+					<button id="7" onclick="destapar(7)" class="card"></button>
+					<button id="8" onclick="destapar(8)" class="card"></button>
+					<button id="9" onclick="destapar(9)" class="card"></button>
+					<button id="10" onclick="destapar(10)" class="card"></button>
+					<button id="11" onclick="destapar(11)" class="card"></button>
+					<button id="12" onclick="destapar(12)" class="card"></button>
+					<button id="13" onclick="destapar(13)" class="card"></button>
+					<button id="14" onclick="destapar(14)" class="card"></button>
+					<button id="15" onclick="destapar(15)" class="card"></button>
+				</div>
+			</section>
+			<section class="contador">
+				<div class="estadisticas">
+					<div class="aciertos">
+						<h2>Aciertos:</h2>
+						<span id="contador-aciertos">0</span>
+					</div>
+					<div class="movimientos">
+						<h2>Movimientos:</h2>
+						<span id="contador-estadisticas">0</span>
+					</div>
+				</div>
+				<div class="contador-button">
+					<button class="start">Play Game<span></span></button>
+				</div>
+			</section>
+			<script src="/src/components/app.js"></script>
+		</main>
+	</body>
+</html>
